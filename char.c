@@ -12,5 +12,6 @@ void main()
    {
       l = l + 1;
    }
+   puts("the no of charcter in string is %d\n",l)
    getch();
    }
