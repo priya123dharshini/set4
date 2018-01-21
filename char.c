@@ -8,10 +8,9 @@ void main()
    clrscr();
    puts("Enter any string\n");
    gets(str);
-   for(i = 0; str[i] !='\0'; i++)
+   if(str==1 || str==9)
    {
-      l = l + 1;
-   }
+      l=l++;
    puts("the no of charcter in string is %d\n",l)
    getch();
    }
